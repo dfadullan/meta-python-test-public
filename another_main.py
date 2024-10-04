@@ -37,7 +37,7 @@ def on_receive(data: dict) -> dict:
     # Calculate foo_bar by concatenating foo and bar
     foo_bar = f"{foo_value}_{bar_value}"
 
-    print("executing on_receive of another_main.py")
+    print("executing on_receive of another_main.py from a public repo")
     
     return {
         "foobar": foo_bar,
