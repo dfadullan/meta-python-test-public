@@ -1,3 +1,18 @@
+import requests
+import pandas
+import cv2  # Package: opencv-python
+from bs4 import BeautifulSoup  # Package: beautifulsoup4
+import PIL  # Package: Pillow
+from sklearn.model_selection import train_test_split
+from tensorflow import keras
+import os  # Standard library - should be ignored
+import json  # Standard library - should be ignored
+import requests  # External - should be detected
+import numpy as np  # External - should be detected
+from scipy.stats import boxcox
+from scipy.special import inv_boxcox
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+
 from calculator.helper import Calculator
 
 class MyClass:
