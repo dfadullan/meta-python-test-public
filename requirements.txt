@@ -1,0 +1,9 @@
+beautifulsoup4
+numpy
+pandas
+Pillow
+Requests
+scikit_learn
+scipy
+statsmodels
+tensorflow
