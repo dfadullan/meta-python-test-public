@@ -1,9 +1,9 @@
 beautifulsoup4
-numpy
-pandas
-Pillow
+numpy==2.3.3
+pandas==2.3.3
+Pillow==11.3.0
 Requests
 scikit_learn
-scipy
+scipy 
 statsmodels
 tensorflow
